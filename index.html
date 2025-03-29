@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .skills-section {
+            background: #fff;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills-section h2 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 1rem;
+        }
+        .skills-section ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skills-section li {
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            border-radius: 20px;
+            font-size: 1rem;
+            text-align: center;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .profile-image {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .profile-image {
+        position: absolute; /* Places the image outside the flow of the document */
+        top: 10px; /* Pushes it down slightly from the top */
+        left: 10px; /* Aligns it to the left side */
+        width: 100px; /* Reduces size */
+        height: 100px; /* Keeps proportions consistent */
+        border-radius: 50%; /* Makes the image circular */
+        border: 2px solid #333; /* Optional border for a clean look */
+        }
+        .project {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .github-section {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+        .contact {
+            text-align: center;
+            padding: 1rem;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="profile-image">
+            <img src="Profilephoto.jpeg" alt="Profile Image" style="width: 100px; height: 100px; border-radius: 50%;">
+        </div>
+        <h1>Nathier Moerat</h1>
+        <p>Software Developer | Passionate Problem Solver | Tech Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+
+            <p>Innovative React Developer
+                specializing in creating
+                robust, scalable web
+                applications. I dont have
+                much work experience but
+                I am very eager to learn
+                and improve my skillset.</p>
+
+                   <p>I am currently busy with a
+                    software development
+                    course where I do different
+                    coding projects and lessons
+                    weekly, focusing on
+                    concepts related to
+                    software development such
+                    as using REACT.</p>
+
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Agile</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A brief description of Project 1. Include technologies you used and its purpose.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A brief description of Project 2. Include technologies you used and its purpose.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <section class="github-section">
+            <h2>Find Me on GitHub</h2>
+            <p>Check out my other projects on <a href="https://github.com/BlazingArrow246" target="_blank">GitHub</a>.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out via <a href="mailto:moeratnathier@gmail.com">email</a> or connect on <a href="https://www.linkedin.com/in/nathier-moerat-3b8206302/">LinkedIn</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Nathier Moerat</p>
+    </footer>
+</body>
+</html>
