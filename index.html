@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <!-----------Navigation Bar------------->
+        <nav>
+            <ul class="navbar">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#github">GitHub</a></li>
+                <li><a href="#contactSection">Contact</a></li>
+            </ul>
+        </nav>
+        <!------------Intro----------------------->
         <div class="profile-image">
             <img src="Profilephoto.jpeg" alt="Profile Image" style="width: 100px; height: 100px; border-radius: 50%;">
         </div>
         <h1>Nathier Moerat</h1>
         <p>Software Developer | Passionate Problem Solver | Tech Enthusiast</p>
-    </header>
 
+    </header>
+        <!--------------About me------------------>
     <div class="container">
-        <section>
+        <section id="about">
             <h2>About Me</h2>
 
             <p>Innovative React Developer
@@ -37,8 +49,8 @@
                     as using REACT.</p>
 
         </section>
-
-        <section>
+        <!--------------Skills---------------------->
+        <section id="skills">
             <h2>Skills</h2>
             <ul>
                 <li>JavaScript</li>
@@ -49,8 +61,8 @@
                 <li>Git & GitHub</li>
             </ul>
         </section>
-
-        <section>
+        <!--------------Projects------------------->
+        <section id="projects">
             <h2>Projects</h2>
 
             <div class="project">
@@ -85,17 +97,18 @@
                     <a href="https://github.com/BlazingArrow246/SDF_Portfolio_Piece_MOGMOE24057_FTO410_Group-A_Nathier-Moerat_SDF11" target="_blank">View Project</a>
             </div>
         </section>
-
-        <section class="github-section">
+        <!--------------GitHub-------------------->
+        <section id="github" class="github-section">
             <h2>Find Me on GitHub</h2>
             <p>Check out my other projects on <a href="https://github.com/BlazingArrow246" target="_blank">GitHub</a>.</p>
         </section>
-
-        <section class="contact">
+        <!--------------Contact-------------------->
+        <section id="contactSection" class="contact">
             <h2>Contact</h2>
             <p>Feel free to reach out via <a href="mailto:moeratnathier@gmail.com">email</a> or connect on <a href="https://www.linkedin.com/in/nathier-moerat-3b8206302/">LinkedIn</a>.</p>
         </section>
     </div>
+        <!--------------Footer---------------------->
     <footer>
         <p>&copy; 2025 Nathier Moerat</p>
     </footer>
